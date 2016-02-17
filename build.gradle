@@ -2,12 +2,12 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin:'application'
 sourceCompatibility = 1.5
-mainClassName = "org.gradle.TestClass.Main"
+mainClassName = "org.gradle.BalancedBraces.Main"
 
 version = '1.0'
 jar {
    manifest {
-        attributes 'Main-Class': 'org.gradle.TestClass.Main'
+        attributes 'Main-Class': 'org.gradle.BalancedBraces.Main'
     }
 
 }
