@@ -6,10 +6,10 @@ mainClassName = "org.gradle.TestClass.Main"
 
 version = '1.0'
 jar {
-    manifest {
-        attributes 'Implementation-Title': 'Gradle Quickstart',
-                   'Implementation-Version': version
+   manifest {
+        attributes 'Main-Class': 'org.gradle.TestClass.Main'
     }
+
 }
 
 repositories {
