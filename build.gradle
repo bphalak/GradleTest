@@ -7,7 +7,7 @@ mainClassName = "org.gradle.BalancedBraces.Main"
 version = '1.0'
 jar {
    manifest {
-        attributes 'Main-Class': 'org.gradle.BalancedBraces.Main'
+        attributes 'Main-Class': 'org.gradle.BalancedBraces'
     }
 
 }
