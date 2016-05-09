@@ -32,3 +32,4 @@ uploadArchives {
        }
     }
 }
+task wrap( type: Wrapper ) { gradleVersion = '2.13' }
